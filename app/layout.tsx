@@ -1,11 +1,15 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import packageJSON from '../package.json'
+import { Metadata } from "next";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ['latin'] })
 
-export const metadata = {
-	title: "gpt-sw3-test",
-};
+export const metadata: Metadata = {
+  title: packageJSON.name,
+  description: packageJSON.name,
+}
+
 
 export default function RootLayout({
 	children,
