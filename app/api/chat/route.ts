@@ -39,17 +39,17 @@ export async function POST(req: Request) {
 
 	console.log("Trying to generate message");
 
-	//@ts-ignore
 	const response = await Hf.request({
 		// model: 'AI-Sweden-Models/gpt-sw3-1.3b-instruct',
 		//@ts-ignore
 		inputs: messages,
 		parameters: {
-			max_new_tokens: 250,
-			repetition_penalty: 1.2,
-			do_sample: true,
-			temperature: 0.6,
-			top_p: 1,
+			max_new_tokens: 100,
+			max_time: 23,
+			repetition_penalty: 1.1,
+			// do_sample: true,
+			// temperature: 0.6,
+			// top_p: 0.6,
 			// truncate: 1000,
 			// return_full_text: true,
 		},
