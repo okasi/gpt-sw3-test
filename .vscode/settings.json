@@ -1,0 +1,27 @@
+{
+	"editor.tabSize": 2,
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+		"quickfix.biome": true,
+		"source.fixAll": true,
+		"source.organizeImports.biome": true,
+	},
+	"[javascript][javascriptreact][typescript][typescriptreact]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"[css][scss][less]": {
+		"editor.defaultFormatter": "vscode.css-language-features"
+	},
+	"[json][jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"files.watcherExclude": {
+		"**/node_modules/**": true,
+	},
+	"search.exclude": {
+		"**/node_modules/**": true,
+	},
+}
