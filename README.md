@@ -1,4 +1,4 @@
-# Vercel AI SDK, Next.js, and Hugging Face Chat Example
+# Vercel AI SDK, Next.js, and Hugging Face Chat 
 
 
 ## How to use
